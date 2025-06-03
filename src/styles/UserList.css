@@ -29,7 +29,8 @@
 .user-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  flex-direction : row;
+  justify-content: flex-start;
   gap: 30px;
   max-width: 960px;
   margin: 0 auto;
